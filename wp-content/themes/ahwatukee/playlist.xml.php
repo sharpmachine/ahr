@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist>
+  <trackList>
+    <track>
+      <annotation>Realms of Glory</annotation>
+      <location>http://localhost/ahr/wp-content/uploads/2011/02/02-Realms-of-Glory.mp3</location>
+      <info></info>
+      <image>http://localhost/ahr/wp-content/uploads/2011/02/CoverS.jpg</image>
+    </track>
+    <track>
+      <annotation>Awaiting the Kingsss</annotation>
+      <location>http://localhost/ahr/wp-content/uploads/2011/02/01-Awaiting-the-King.mp3</location>
+      <info></info>
+      <image>http://localhost/ahr/wp-content/uploads/2011/02/CoverS.jpg</image>
+    </track>
+    
+   
+ 
+    <track>
+      <annotation>blah</annotation>
+      <location>http://localhost/ahr/wp-content/uploads/2011/02/01-Awaiting-the-King.mp3</location>
+      <info></info>
+      <image>http://localhost/ahr/wp-content/uploads/2011/02/CoverS.jpg</image>
+    </track>
+  </trackList>
+  
+</playlist>

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background: #000 url(images/background.jpg) repeat-x top center;
+	color: #fff;
+	font-weight: 600;
+	 font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+a, a:link, a:visited 
+{
+	color: #24baf7;
+
+}
+
+a:hover
+{
+	text-decoration: none;
+
+}
+
+#header
+{
+	height: 210px;
+	width: 950px;
+	margin: 0 auto;
+	background: url(images/AHR_logo.png) no-repeat center center;
+}
+
+#header p, #footer
+{
+	visibility: hidden;
+}
+
+p
+{
+	line-height: 2em;
+}
+
+#content
+{
+	width: 950px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+	text-align: center;
+}
+
+h1
+{
+	color: #24baf7;
+}

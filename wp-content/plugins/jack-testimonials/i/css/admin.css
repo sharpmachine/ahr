@@ -1,0 +1,140 @@
+/****************************************
+ * Collision Testimonials
+ * Admin CSS Rules
+ *
+ * Author: Backend Labs, Inc.
+ * Author URI: http://www.backendlabs.com
+ ****************************************/
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+p, h1, form {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+td.featured a.feat, td.featured a.unfeat:hover {
+	width:18px;
+	height:18px;
+	display:block;
+	background:url('../images/star.png') no-repeat top center;
+}
+
+td.featured a.unfeat, td.featured a.feat:hover {
+	width:18px;
+	height:18px;
+	display:block;
+	background:url('../images/blankstar.png') no-repeat top center;
+}
+
+td.featured a.feat span, td.featured a.unfeat span {display:none;}
+
+#supportform, #faqbox, #codetags {
+	border:solid 2px #b7ddf2;
+	background:#ebf4fb;
+	padding:14px;
+}
+
+#supportform {
+	width:1000px;
+	float:left;
+	margin:20px 0 0;
+}
+
+#supportform .formleft {
+	width:490px;
+	float:left;
+}
+
+#supportform .formright {
+	width:490px;
+	float:right;
+}
+
+#supportform .formsubmit {
+	width:1000px;
+	float:left;
+}	
+
+#faqbox {
+	width:1000px;
+	float:left;
+	margin:20px 0 40px;
+}
+
+#supportform h3, #faqbox h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin:0 0 8px;
+	padding:0;
+}
+#supportform form {
+	width:1000px;
+	float:left;
+}
+#supportform p {
+	font-size:12px;
+	color:#666666;
+	margin-bottom:6px;
+	width:100%;
+	float:left;
+	display:block;
+}
+#supportform p.info {
+	border-bottom:solid 1px #b7ddf2;
+	margin-bottom:20px;
+	padding-bottom:12px;
+}
+#supportform label {
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:160px;
+	float:left;
+}
+#supportform .small {
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width:160px;
+}
+#supportform input, #supportform textarea {
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #aacfe4;
+	width:300px;
+	margin:2px 0 20px 10px;
+}
+#supportform input#submit {
+	clear: both;
+	margin: 20px 0 0 400px;
+	width: 125px;
+	height: 31px;
+	background: #666;
+	text-align: center;
+	line-height: 31px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+}
+#supportform .collisionsuccess {
+	color:#090;
+	font-weight:bold;
+	padding:0 0 12px;
+	font-size:12px;
+}
+#supportform .collisionerror {
+	color:#f00;
+	font-weight:bold;
+	padding:0 0 12px;
+}
+#supportform .collisionerror input, #supportform .collisionerror textarea {
+	border-color:#f00;
+}

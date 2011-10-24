@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+#access 
+{
+	border-radius: 20px 20px 0 0;
+	-pie-background: linear-gradient(#4a4a4c, #000);
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
+#access ul ul 
+{
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#4a4a4c');
+}
+
+#sitemap
+{
+	border-radius: 0 0 20px 20px;
+	-pie-background: linear-gradient(#24baf7, #54c4f2);
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
+.buttonlink
+{
+	position: relative;
+	-pie-background: linear-gradient(#4a4a4c, #000);
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
+.infobox h2, #sidebar h3.widget-title 	
+{	
+	border-radius: 10px 10px 0 0;
+	position: relative;
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
+#sidebar .widget-container
+{
+	-pie-background: rgba(30, 170, 228, 0.6);
+	position: relative;
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
+.botbar
+{
+	position: relative;
+	-pie-background: linear-gradient(#1698D2, #00689B);
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
+#cart, p.testimonials_page, 
+p.featured, .entry-content .collisionsuccess,  
+li.comment
+{
+	-pie-background: rgba(8, 42, 56, .4);
+	position: relative;
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
+h1
+{
+	filter: glow(color=#000000,strength=1);
+	filter: dropshadow(color=#000000,offX=1,offY=1);
+}
+
+.entry-content #shopp p a, 
+#page .infobox .box img, 
+.entry-content p img, 
+form#si_contact_form1 input, 
+form textarea, 
+form.shopp input, 
+form.shopp select,
+.buttonlink:hover,
+.infobox,
+#sidebar .widget-container
+{
+	position: relative;
+	behavior: url(http://www.ahwatukeehealingrooms.com/wp-content/themes/ahwatukee/js/PIE.htc);	
+}
+
