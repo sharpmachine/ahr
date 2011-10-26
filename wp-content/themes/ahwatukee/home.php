@@ -27,7 +27,7 @@
 </div>	
     
 
-<div><a class="buttonlink soaking" href="http://localhost/ahr/soaking-music">Experience Soaking</a></div>	
+<div><a class="buttonlink soaking" href="soaking-music">Experience Soaking</a></div>	
 </div>
 
 <div class="span-7 infobox last"><h2><a href="shop">Featured Products</a></h2>
